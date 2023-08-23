@@ -1,0 +1,8 @@
+@mixin buttons  {
+    border: 1px solid gray;
+    border-radius: .5em;
+    color: rgb(0, 0, 0);
+    background-color: rgb(201, 201, 201);
+    padding: 2px 10px;
+    transition: .3s all;
+}

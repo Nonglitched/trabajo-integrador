@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Proyecto Integrador - Contacto</title>
+</head>
+
+<body>
+
+  <header class="main-header">
+    <input type="checkbox" id="menu">
+
+    <nav class="nav-bar"> <!-- nav-bar -->
+      <ul class="nav-bar__nav-list">
+        <li class="nav-bar__nav-item">
+          <a href="/index.html" class="nav-bar__nav-link">Inicio</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="/views/alta.html" class="nav-bar__nav-link">Alta</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="/views/contacto.html" class="nav-bar__nav-link">Contacto</a>
+        </li>
+        <li class="nav-bar__nav-item">
+          <a href="/views/nosotros.html" class="nav-bar__nav-link">Nosotros</a>
+        </li>
+      </ul>
+    </nav> <!-- nav-bar -->
+    <div class="search-bar"> <!-- search-bar -->
+      <div class="search-bar__logo-container">Logo</div>
+      <form action="" class="search-bar__form-container">
+        <label for="busqueda" class="search-bar__form-label">Buscar</label>
+        <input type="search" class="search-bar__form-search" id="busqueda">
+        <input type="submit" value="Buscar" class="search-bar__form-submit">
+      </form>
+      <div class="search-bar__carrito-container">Carrito</div>
+    <div class="menu-toggle">
+        <label for="menu" class="menu-toggle__label">
+          <span class="menu-toggle__top-bread"></span>
+          <span class="menu-toggle__meat"></span>
+          <span class="menu-toggle__bottom-bread"></span>
+        </label>
+      </div>
+    </header>
+  <main class="contact-forms">
+    <div class="contact-forms__container">
+      <h1 class="contact-forms__container__h1">Contacto</h1>
+      <h2 class="contact-forms__container__h2">En breve nos pondremos en contacto contigo</h2>
+      <form class="contact-forms__container__forms">
+      <div class="contact-forms__container__div">
+        <label for="first-name">Nombre</label>
+        <input type="text" id="first-name" name="first-name" required>
+      </div>
+
+      <div class="contact-forms__container__div">
+        <label for="last-name">Apellido</label>
+        <input type="text" id="last-name" name="last-name" required>
+      </div>
+
+      <div class="contact-forms__container__div">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="contact-forms__container__div">
+        <label for="phone">Telefono</label>
+        <input type="tel" id="phone" name="phone">
+      </div>
+
+      <div class="contact-forms__container__div">
+        <label for="comments">Comentarios</label>
+        <textarea id="comments" name="comments"></textarea>
+      </div>
+
+      <div class="contact-forms__container__button">
+        <button type="submit">Submit</button>
+      </div>
+    </div>
+  </main>
+  <footer class="footer">   
+    <p class="footer__copyright">&copy; 2023 Nombre de la Empresa. Todos los derechos reservados.</p>
+    <div class="footer__social">
+      <a href="#" class="footer__link">Facebook</a>
+      <a href="#" class="footer__link">Twitter</a>
+      <a href="#" class="footer__link">Instagram</a>
+    </div>
+  </footer>
+  
+
+  <script type="module" src="../main.js"></script>
+</body>
+
+</html>

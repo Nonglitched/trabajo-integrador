@@ -1,0 +1,85 @@
+.contact-forms {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    &__container {
+        margin: 100px 30px 30px;
+        border-radius: 5px;
+        min-width: 265px;
+        background-color: rgb(227, 227, 227);
+        padding: 40px;
+        &__h1 {
+            background-color: rgba(255, 255, 255, 0);
+        }
+        &__h2 {
+            background-color: rgba(255, 255, 255, 0);
+            margin-bottom: 25px;
+        }
+        &__div {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+        textarea {
+            text-align: center;
+            padding: 2px;
+            outline: none;
+            width: 180px;
+            height: 50px;
+            resize: none;
+            background-color: rgb(227, 227, 227);
+            font-weight: bold;
+            transition: all .3s;
+            caret-color: gray 3px;
+            &:hover,
+            &:active {
+                color: #d3d3d3;
+                outline: 1px rgb(0, 0, 0) solid;
+                outline-offset: -1px;
+                background-color: gray;
+            }
+        }
+        div,label,input,button {
+            background-color: rgb(227, 227, 227);
+            padding: 5px 0;
+        }  
+        input,button {
+            border: 1px solid gray;
+        }  
+        input {
+            outline: none;
+            border-radius: 5px;
+            caret-color: gray 3px;
+            text-align: center;
+            font-weight: bold;
+            transition: all .3s;
+            &:hover,
+            &:active {
+                outline: 1px rgb(0, 0, 0) solid;
+                outline-offset: -1px;
+                color: #d3d3d3;
+                background-color: gray;
+            }
+        }
+        &__button {
+            display: flex;
+            justify-content: center;
+            padding: 25px 0 0 0;
+            button {
+                margin-top: 25px;
+                padding: 10px;
+                border-radius: 5px;
+                transition: all .3s;
+                &:hover {
+                cursor: pointer;
+                background-color: rgb(176, 176, 176);
+                }
+                &:active {
+                    cursor: pointer;
+                    color: #d3d3d3;
+                    background-color: rgb(144, 144, 144);
+                }
+            }
+        }
+    }
+}

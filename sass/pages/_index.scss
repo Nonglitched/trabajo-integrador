@@ -1,0 +1,25 @@
+.section-cards {
+  background-color: #f1f2f3;
+  padding: 1em;
+}
+
+.section-cards__header {
+  margin: 120px 0  20px;
+  height: 100px;
+  text-align: center;
+}
+
+.section-cards__header__p {
+  display: none;
+}
+.section-cards__header__h1 {
+  color: black;
+  background-color: #f1f2f300;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1em;
+  justify-content: center;
+}
